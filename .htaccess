@@ -8,3 +8,10 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 </FilesMatch>
 
 Options -Indexes
+
+# Keep CSS/JS from being cached for long, so changes show up quickly
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=300"
+  </FilesMatch>
+</IfModule>
