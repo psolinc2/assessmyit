@@ -20,10 +20,10 @@
       "Could you explain, line by line, what you pay your IT company for each month?",
       "Have you ever received a written review explaining where your firm is exposed to technology, security or compliance risk?",
       "Can your IT provider show how technology problems affect staff productivity or billable time?"] },
-    { name: "Ownership and control", q: [
+    { name: "Ownership, access and control", q: [
       "Does the firm, not your IT company, control its Microsoft 365 account, domain names and critical passwords?",
       "If you requested all of your firm's technology documentation tomorrow, would you receive it without resistance?",
-      "Is there a documented process for setting up and removing access when attorneys and staff join or leave?",
+      "Many attorneys now work from a second office at home. Are you confident client files are as protected there as they are in the firm's office?",
       "If your IT company disappeared tomorrow, could another firm take over without starting from scratch?"] },
     { name: "Client and professional duties", q: [
       "If your largest client audited your cybersecurity practices tomorrow, would you feel prepared to show them evidence?",
@@ -51,7 +51,7 @@
     16: "Ask for a trend of ticket volume by user and category, so lost time is visible.",
     17: "Confirm who owns the Microsoft 365 tenant and domain registration, who holds global admin, and where the passwords are kept.",
     18: "Ask for current network, systems and account documentation, delivered to you.",
-    19: "Ask for the onboarding and offboarding checklist.",
+    19: "Ask how home offices are secured: which devices and home networks touch client data, whether personal devices are allowed, how lost or stolen laptops are locked or wiped, how printing and paper at home are handled, and who supports the home setup. Also ask for the onboarding and offboarding checklist, so access is removed the day someone leaves.",
     20: "Ask for a written transition plan and exit terms. Read your contract for term, auto-renewal and notice.",
     21: "Ask for an evidence package: security controls in place, backup results, training records and policies.",
     22: "Ask for a written mapping of your controls to your duties of competence and confidentiality (ABA Model Rules 1.1 and 1.6(c), and California State Bar guidance).",
