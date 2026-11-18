@@ -1,8 +1,8 @@
 (function () {
   var CATS = [
-    { name: "Responsiveness and trust", q: [
-      "When you have an IT issue, do you usually hear back within the time you expect?",
-      "Do you work with the same small group of people who understand your firm and your staff?",
+    { name: "Everyday experience and trust", q: [
+      "When you have an IT issue, do you usually hear back within the time you expect, from someone who already knows your firm?",
+      "When you work from home or on the road, does connecting, printing and reaching your files just work, without a workaround each time, while staying secure?",
       "If a major issue happened tonight, do you know exactly who to call?",
       "Do you view your IT provider as a trusted advisor rather than someone who only fixes problems?"] },
     { name: "Security and risk", q: [
@@ -33,8 +33,8 @@
   ];
   var PRIORITY = [5, 9, 10, 17]; // 1-indexed question numbers; a 0 here is flagged
   var ASK = {
-    1: "Ask for response and resolution targets in writing, and the last three months of actual results.",
-    2: "Ask who your named contacts are and who covers them.",
+    1: "Ask for response and resolution targets in writing, the last three months of actual results, and who your named contacts are and who covers them.",
+    2: "Ask how attorneys connect remotely, whether printing works from anywhere, and how often remote logins or printing fail. Frustration leads to risky workarounds like emailing files to personal accounts, so ask how security and compliance are enforced without relying on them.",
     3: "Ask for the emergency number and ask them to test it with you.",
     4: "Ask what your provider would do for the firm in a serious incident: who speaks to clients, the insurer and regulators, and who makes the decisions.",
     5: "Ask for proof that MFA is enforced for every account, including partners and shared mailboxes, and for the conditional access settings behind it.",
