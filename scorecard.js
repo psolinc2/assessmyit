@@ -9,7 +9,7 @@
       "Are you confident that everyone who accesses firm data, partners included, is properly protected with modern security controls?",
       "Would you be alerted if someone in the firm fell for a phishing email or other scam?",
       "Would you know if a security weakness existed inside your firm and remained unresolved?",
-      "Has anyone helped you understand the cybersecurity requirements being imposed by clients, courts, insurers or regulators?"] },
+      "If someone emailed your accounting staff pretending to be a client with new wire instructions, is there a process that would catch it?"] },
     { name: "Backup and continuity", q: [
       "If a file from an active matter disappeared tomorrow, are you confident it could be recovered?",
       "If ransomware encrypted every computer in the office, do you know how long you would be down?",
@@ -17,7 +17,7 @@
       "Has anyone proven to you that your data can actually be recovered after a disaster?"] },
     { name: "Strategy and planning", q: [
       "Do you receive regular reviews that explain what is working, what is not, and what should be improved?",
-      "Do you know what major technology expenses are likely over the next 12 months?",
+      "Could you explain, line by line, what you pay your IT company for each month?",
       "Have you ever received a written review explaining where your firm is exposed to technology, security or compliance risk?",
       "Can your IT provider show how technology problems affect staff productivity or billable time?"] },
     { name: "Ownership and control", q: [
@@ -40,13 +40,13 @@
     5: "Ask for proof that MFA is enforced for every account, including partners and shared mailboxes, and for the conditional access settings behind it.",
     6: "Ask what phishing training or testing was done in the last 12 months, and how staff report suspicious email.",
     7: "Ask for a monthly device report showing missing patches and protection, and what was fixed.",
-    8: "Ask for a short written summary of what your clients, insurer and regulators require, and where you stand.",
+    8: "Ask for the written process for verifying payment or wire changes (a callback to a known number is the baseline), and whether staff have been trained on it.",
     9: "Ask for the date and written result of the last restore test of a matter folder or mailbox.",
     10: "Ask for the written disaster recovery plan, with recovery time and data loss targets, and the last time it was tested.",
     11: "Ask which systems the firm depends on, what each one's vendor outage plan is, and what the manual fallback is.",
     12: "Ask for the date and written result of the last two restore tests, and the backup and restore test schedule.",
     13: "Ask for a quarterly review on the calendar with real numbers.",
-    14: "Ask for a 12 month budget forecast including hardware and license renewals.",
+    14: "Ask for an itemized breakdown of your monthly invoice: what each charge covers, and what is not included. Ask for the 12 month budget forecast too.",
     15: "Ask for a short written risk list with owners and dates.",
     16: "Ask for a trend of ticket volume by user and category, so lost time is visible.",
     17: "Confirm who owns the Microsoft 365 tenant and domain registration, who holds global admin, and where the passwords are kept.",
