@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Keep the lead log and dotfiles private
+<FilesMatch "^(leads\.log|\..*)$">
+  Require all denied
+</FilesMatch>
+
+Options -Indexes

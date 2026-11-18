@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IT provider scorecard for law firms | Assess My IT</title>
+<meta name="description" content="Answer 24 questions from your contract and invoices and see how your IT provider scores.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="brand" href="/">Assess My IT</a>
+<nav><a href="tiers.html">The three tiers</a><a href="scorecard.html">Scorecard</a><a href="about.html">About</a></nav></div></header>
+<div class="progress"><div class="wrap"><span id="count">0 of 24 answered</span><div class="bar"><i id="bar"></i></div></div></div>
+<main class="wrap">
+<h1>The scorecard</h1>
+<p>Answer Yes, Partly or not sure, or No. You don't need your IT person to answer these. If you're not sure, say so. "Not sure" is itself a finding, and it counts as a gap.</p>
+<div id="questions"></div>
+<p style="margin-top:28px"><button class="btn" id="see" type="button">See my score</button></p>
+
+<div class="result" id="result">
+<div id="resultbody"></div>
+<h3>Get the detailed report</h3>
+<p>The full report lists all 24 answers with exactly what to ask your IT company to show you on each one. Enter your details to see it.</p>
+<form class="lead-form" id="lead" novalidate>
+<label for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name">
+<label for="firm">Firm</label><input type="text" id="firm" name="firm" autocomplete="organization">
+<label for="email">Work email</label><input type="email" id="email" name="email" autocomplete="email" required>
+<label for="users">Number of users</label>
+<select id="users" name="users"><option>1-10</option><option>11-25</option><option>26-50</option><option>51+</option></select>
+<label for="renewal">Contract renewal date (optional)</label><input type="date" id="renewal" name="renewal">
+<input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<p class="note">Your answers are used to build your report. I will not sell your information or share it.</p>
+<button class="btn" type="submit">Show my detailed report</button>
+</form>
+<div id="thanks"><strong>Thanks.</strong> Your report is below.</div>
+<div id="report"></div>
+
+<h3>Want a second opinion?</h3>
+<p>Send me your current contract and last invoice and I'll write a one-page review of what you're paying for and what's missing. No pitch attached. Email <a href="mailto:EMAIL_HERE">EMAIL_HERE</a>.</p>
+</div>
+</main>
+<footer><div class="wrap">Assess My IT is published by Promising Solutions, Los Angeles, which provides managed IT services to law firms. <a href="privacy.html">Privacy</a></div></footer>
+<script src="scorecard.js"></script>
+</body>
+</html>
