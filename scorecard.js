@@ -127,7 +127,7 @@
     var flags = PRIORITY.filter(function (p) { return a[p - 1] === 0; });
     state = { total: total, tier: tier.t, cats: cats, low: order, flags: flags, a: a };
 
-    var h = "<div class='score'>" + total + " <span style='font-size:20px;color:#5b6578'>/ 48</span></div>" +
+    var h = "<div class='score'>" + total + " <span style='font-size:24px;color:#58627a'>/ 48</span></div>" +
       "<h2 style='margin-top:10px'>" + tier.t + "</h2><p><strong>" + tier.line + "</strong></p><p>" + tier.body + "</p>" +
       "<h3>By category</h3>";
     cats.forEach(function (c) {

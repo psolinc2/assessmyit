@@ -4,35 +4,61 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Assess My IT: A report card for your law firm's IT provider</title>
-<meta name="description" content="24 questions your law firm can answer from its own contract and invoices to see what its IT provider is actually delivering.">
-<link rel="stylesheet" href="style.css?v=7">
+<meta name="description" content="24 questions your law firm can answer without calling your IT person, to see what your IT provider is actually delivering.">
+<link rel="preload" href="fonts/public-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
 <header class="site"><div class="wrap"><a class="brand" href="/">Assess My IT</a>
-<nav><a href="tiers.html">The three tiers</a><a href="scorecard.html">Scorecard</a><a href="about.html">About</a></nav></div></header>
-<main class="wrap">
+<nav><a href="tiers.html">The three tiers</a><a href="about.html">About</a><a class="cta" href="scorecard.html">Take the scorecard</a></nav></div></header>
+
+<section class="hero"><div class="wrap hero-grid">
+<div>
 <h1>Your IT company says everything is fine. Can they prove it?</h1>
 <p class="lead">Good IT is approachable and brings you solutions. Bad IT checks boxes and sends invoices.</p>
-<p>Most IT providers aren't bad. Most do what the contract says. The problem is that the contract often says very little, and you have no way to check.</p>
-<p>This is a 24-question scorecard for law firms, written for managing partners. You don't need your IT person to answer. It takes about 10 minutes. It doesn't name or rate any provider.</p>
-<p><a class="btn" href="scorecard.html">Take the scorecard</a></p>
+<p>A 24-question scorecard written for managing partners. You don't need your IT person to answer. It takes about 10 minutes and doesn't name or rate any provider.</p>
+<div class="actions"><a class="btn" href="scorecard.html">Take the scorecard</a><a class="btn ghost" href="#review">Get a contract review</a></div>
+</div>
+<figure class="rc" aria-label="Sample report card, for illustration">
+<span class="rc-tag">SAMPLE</span>
+<div class="rc-head"><span>IT report card</span><span>Example firm, 12 users</span></div>
+<div class="rc-row"><span>Everyday experience</span><span class="grade">B+</span></div>
+<div class="rc-row"><span>Security and risk</span><span class="grade">C</span></div>
+<div class="rc-row"><span>Backup and continuity</span><span class="grade circled">D</span></div>
+<div class="rc-row"><span>Ownership and control</span><span class="grade">C-</span></div>
+<div class="rc-row"><span>Client and professional duties</span><span class="grade">B</span></div>
+<p class="rc-note">Restores never tested. Ask for proof.</p>
+<div class="rc-total"><span>Overall</span><span class="grade">C</span></div>
+</figure>
+</div></section>
 
-<div class="band"><div class="wrap">
-<h2>What it checks</h2>
+<main class="wrap">
+<h2>Three of the 24 questions</h2>
+<div class="qs">
+<blockquote>If ransomware encrypted every computer in the office, do you know how long you would be down?</blockquote>
+<blockquote>If your IT company disappeared tomorrow, could another firm take over without starting from scratch?</blockquote>
+<blockquote>If your largest client audited your cybersecurity practices tomorrow, would you feel prepared to show them evidence?</blockquote>
+</div>
+<p style="margin-top:26px"><a class="btn" href="scorecard.html">Take the scorecard</a></p>
+
+<h2>What it tells you</h2>
 <ul class="clean">
-<li>Would you know if something was broken, and would you hear back when you need help?</li>
-<li>Could this hurt a client matter: ransomware, a lost file, a case management outage?</li>
-<li>If a client or insurer asked for proof of your security tomorrow, could you show it?</li>
-<li>Do you control your own accounts, and could you switch providers without starting over?</li>
-<li>Are you paying for things you're not getting?</li>
+<li>Whether you would know if something was broken, and whether you hear back when you need help.</li>
+<li>Whether a lost file, a ransomware attack or a case management outage could hurt a client matter.</li>
+<li>Whether you could show a client or insurer proof of your security.</li>
+<li>Whether you control your own accounts, and could switch providers without starting over.</li>
+<li>Whether you are paying for things you are not getting.</li>
 </ul>
-</div></div>
 
 <h2>Three kinds of IT support</h2>
 <p>Firms of the same size pay very different prices for very different service. In plain terms: a <strong>Basic</strong> provider handles tickets. A <strong>Solid</strong> provider gives you good day-to-day support and some reporting. A <strong>White glove</strong> provider also plans ahead, tests recovery, and gives you evidence for clients and insurers. <a href="tiers.html">See what each should provide</a>.</p>
 
-<h2>One more offer</h2>
+<div class="offer" id="review">
+<h3>Want a second opinion on your contract?</h3>
 <p>Send me your current contract and last invoice and I'll write a one-page review of what you're paying for and what's missing. No pitch attached.</p>
+<p><a href="mailto:EMAIL_HERE">EMAIL_HERE</a></p>
+</div>
 
 <h2>Who built this</h2>
 <p>I'm Ari, owner of Promising Solutions, an IT and cybersecurity firm in Los Angeles. I built this site and I say so up front. <a href="about.html">More about why</a>.</p>
